@@ -1,0 +1,311 @@
+.contenedor-total{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/background-image.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.contenedor-cabecera{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-page{
+    font-size: 12px;
+    color: white;
+}
+
+.item-box{
+    width: 65px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 8px;
+    margin-left: 10px
+}
+
+.contenedor-caja{
+    width: 1000px;
+    height: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/*Contenedor de dispositivos*/
+.contenedor-dispositivos{
+    width: 500px;
+    height: 515px;
+    background-color: #eeeeee;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.dispositivo{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-dispositivo{
+    width: 85px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #cacaca;
+}
+
+img{
+    width: 30px;
+    height: 60px;
+}
+
+.img-iMac{
+    width: 60px;
+    height: 60px;
+}
+
+.datos-dispositivo{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-color{
+    width: 180px;
+    height: 110px;
+    font-size: 13px;
+}
+
+.precio-btn{
+    width: 180px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+    font-size: 13px;
+}
+
+.boton-eliminar button{
+    border: none;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.boton-eliminar button:hover{
+    color: red;
+}
+
+.boton-eliminar button:active{
+    scale: 0.95;
+}
+
+.division{
+    width: 450px;
+    height: 1px;
+    background-color: rgb(180, 180, 180);
+    margin: 20px;
+}
+
+.contenedor-cupon{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.input-cupon{
+    width: 340px;
+    height: 30px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+.btn-aplicar-cupon{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-aplicar-cupon:hover{
+    background-color: #333333;
+}
+
+.btn-aplicar-cupon:active{
+    scale: 0.95;
+}
+
+.contenedor-datos-compra{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiquetas{
+    width: 225px;
+    height: 110px;
+    font-size: 13px;
+}
+
+.valores{
+    width: 225px;
+    height: 110px;
+    text-align: end;
+    font-size: 13px;
+}
+
+/*Contenedor datos*/
+
+.contenedor-datos{
+    width: 500px;
+    height: 515px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-info{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.label-input{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title-datos{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.label-input label{
+    font-size: 13px;
+    font-weight: bold;
+    align-items: start;
+}
+
+.label-input input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #cacaca;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.contenedor-ciudad-codigo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+}
+
+.label-input-ciudad-codigo{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.label-input-ciudad-codigo label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.label-input-ciudad-codigo input{
+    width: 225px;
+    height: 40px;
+    border: 1px solid #cacaca;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.label-input-ciudad-codigo select{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #cacaca;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.btn-continue{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-continue button{
+    width: 450px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-continue button:hover{
+    background-color: #333333;
+}
+
+.btn-continue button:active{
+    scale: 0.95;
+}

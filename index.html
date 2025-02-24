@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja de tienda de dispositivos</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body class="contenedor-total">
+    <header class="contenedor-cabecera">
+        <div class="title-page"><h1>Checkout</h1></div>
+        <div class="item-box"><h3>3 ITEMS</h3></div>
+    </header>
+    <main>
+        <div class="contenedor-caja">
+            <div class="contenedor-dispositivos">
+                <div class="dispositivo"> 
+                    <div class="imagen-dispositivo">
+                        <img src="../img/Gold.png" alt="iphone-12">
+                    </div>
+                    <div class="datos-dispositivo">
+                        <div class="nombre-color">
+                            <h3>iPhone 12 Pro</h3>
+                            <p>Golden</p>
+                            <p>x 1</p>
+                        </div>
+                        <div class="precio-btn">
+                            <p>$ 999.00</p>
+                            <div class="boton-eliminar">
+                                <button>X</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dispositivo"> 
+                    <div class="imagen-dispositivo">
+                        <img src="../img/Apple-watch.png" alt="apple-watch">
+                    </div>
+                    <div class="datos-dispositivo">
+                        <div class="nombre-color">
+                            <h3>Apple watch</h3>
+                            <p>Blue</p>
+                            <p>x 1</p>
+                        </div>
+                        <div class="precio-btn">
+                            <p>$ 399.00</p>
+                            <div class="boton-eliminar">
+                                <button>X</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dispositivo"> 
+                    <div class="imagen-dispositivo">
+                        <img class="img-iMac" src="../img/iMac.png" alt="iMac">
+                    </div>
+                    <div class="datos-dispositivo">
+                        <div class="nombre-color">
+                            <h3>iMac</h3>
+                            <p>Green</p>
+                            <p>x 1</p>
+                        </div>
+                        <div class="precio-btn">
+                            <p>$ 1199.00</p>
+                            <div class="boton-eliminar">
+                                <button>X</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="division"></div>
+                <div class="contenedor-cupon">
+                    <input class="input-cupon" type="text" placeholder="Ingrese el código del cupon">
+                    <button class="btn-aplicar-cupon">Aplicar cupon</button>
+                </div>
+                <div class="contenedor-datos-compra">
+                    <div class="etiquetas">
+                        <p>Subtotal</p>
+                        <p>Tax</p>
+                        <p>Total</p>
+                    </div>
+                    <div class="valores">
+                        <p>$2597.00</p>
+                        <p>$623.28</p>
+                        <p>$3220.28</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-datos">
+                <h2 class="title-datos">Información del Contacto</h2>
+                <div class="contenedor-info">
+                    <div class="label-input">
+                        <label>Nombre y Apellido:</label>
+                        <input type="text" placeholder="Ingrese su nombre y apellido">
+                    </div>
+                    <div class="label-input">
+                        <label>Correo Electronico:</label>
+                    <input type="email" placeholder="Ingrese su correo electronico">
+                    </div>
+                </div>
+                <div class="contenedor-ciudad-codigo">
+                    <div class="label-input-ciudad-codigo">
+                        <label>Ciudad:</label>
+                        <select id="ciudad">
+                            <option value="ecuador">Ecuador</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="peru">Peru</option>
+                            <option value="argentina">Argentina</option>
+                        </select>
+                    </div>
+                    <div class="label-input-ciudad-codigo">
+                        <label>Postal Code:</label>
+                        <input type="text" placeholder="Ingrese su codigo postal">
+                    </div>
+                    
+                </div>
+                <div class="btn-continue">
+                    <button>Continuar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
