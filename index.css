@@ -4,7 +4,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url(../img/background-image.png);
+    background-image: url(background-image.png);
     background-position: top;
     background-repeat: no-repeat;
     align-items: center;
